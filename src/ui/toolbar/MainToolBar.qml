@@ -83,8 +83,8 @@ Item {
                 QGCToolBarButton {
                     id:                 settingsButton
                     Layout.fillHeight:  true
-                    icon.source:        "/res/QGCLogoWhite"
-                    logo:               true
+                    icon.source:        "/res/New_Images/Picture_1.svg"
+                    logo:               false
                     visible:            !QGroundControl.corePlugin.options.combineSettingsAndSetup
                     onClicked: {
                         if (mainWindow.preventViewSwitch()) {
